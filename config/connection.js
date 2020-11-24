@@ -29,14 +29,18 @@ class Database {
     }
 }
 
+if(process.env.JAWSDB_URL){
+    const db = new Database(process.env.JAWSDB_URL)
+} else {
+    const db = new Database({
+        host: "localhost",
+        port: 3306,
+        user: "root",
+        password: "48kathmandu`",
+        database: "burgers_db"
+      });
+}
 
-const db = new Database({
-  host: "localhost",
-  port: 3306,
-  user: "root",
-  password: "48kathmandu`",
-  database: "burgers_db"
-});
 
 // Make connection.
 
