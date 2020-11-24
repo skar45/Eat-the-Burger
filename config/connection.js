@@ -1,7 +1,7 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
 
-
+let db;
 
 class Database {
     constructor( config ) {
@@ -30,9 +30,9 @@ class Database {
 }
 
 if(process.env.JAWSDB_URL){
-    const db = new Database(process.env.JAWSDB_URL)
+    db = new Database(process.env.JAWSDB_URL)
 } else {
-    const db = new Database({
+    db = new Database({
         host: "localhost",
         port: 3306,
         user: "root",
