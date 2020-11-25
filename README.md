@@ -17,6 +17,10 @@ npm install and then node server.js in the CLI
 
 ## Usage
 
+![1](https://user-images.githubusercontent.com/69816889/100177421-08aafa00-2ea0-11eb-97e7-df85012b7c20.PNG)
+![2](https://user-images.githubusercontent.com/69816889/100177418-06e13680-2ea0-11eb-8e8c-172427e9c38f.PNG)
+![3](https://user-images.githubusercontent.com/69816889/100177427-0cd71780-2ea0-11eb-9466-6bc3c88c2201.PNG)
+
 
 ## License
 MIT License
